@@ -23,6 +23,7 @@ img {
     background-color:#151515;
     position:relative;
     border: #00d5ff;
+    border-width:3px;
     height: 1000px;
     width: 600px;   
   }
@@ -54,3 +55,5 @@ i{
     width:100%;
     height:10%;
 }
+
+

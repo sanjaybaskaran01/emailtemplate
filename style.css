@@ -21,6 +21,7 @@ img {
 .full{
     background-color:#151515;
     position:relative;
+    border: #00d5ff;
     height: 1000px;
     width: 600px;   
   }

@@ -35,13 +35,17 @@ img {
     width:100%;
     position:absolute;
 }
-a:active{
+i:active{
     color:#00d5ff;
+}
+i:hover{
+    color:#00d5ff;
+    transition:all 0.3s ease;
 }
 i{
     display:block;
     float:left;
-    font-size:30px;
+    font-size:25px;
     color:white;
     position:relative;
     padding:1%;

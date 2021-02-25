@@ -39,7 +39,6 @@ img.up{
 .top{
     margin:0 auto;
     top:0;
-    background-color:black;
     height:10%;
     width:100%;
     position:absolute;
@@ -94,11 +93,12 @@ img.up{
 i:active{
     color:#00d5ff;
 }
-i:hover{
+.imag:hover,.imag1:hover{
+    border:2px solid #00d5ff;
     color:#00d5ff;
     transition:all 0.3s ease;
 }
-i{
+.imag,.imag1{
     display:block;
     float:left;
     font-size:25px;
@@ -121,13 +121,7 @@ p,ul{
     float:center;
     font-size:15px;
 }
-.bottext{
-    font-size:15px;
-    text-align:left;
-    position:relative;
-    margin:0;
-    padding:1%;
-}
+
 li{
     margin:0 0 5px 0;
 }
@@ -141,24 +135,22 @@ h2{
 .bottom {
     display:flex;
     position:relative;
+    margin:125px auto auto 10px;
     bottom:0;
     height:10%;
 
 }
 
-.imag{
-    float:left;
+.imag,.imag1{
     max-width:40%;
     max-height:40%;
+    display:inline-block;
 }
-.imag1{
-    float:left;
-    max-width:80%;
-    }
+
 .c::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+        content: "";
+        clear: both;
+        display: table;
+      }
 
 

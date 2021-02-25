@@ -36,6 +36,12 @@ img {
     position:absolute;
 }
 
+#csi{
+    color:whitesmoke;
+}
+#csi:hover{
+    color:#00d5ff;
+}
 
 #devlink{
     font-family: 'Lato', sans-serif;

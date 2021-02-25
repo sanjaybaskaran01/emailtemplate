@@ -12,13 +12,16 @@ img.up{
 .row{
     margin:35px auto;
     float:center;
-    width:40%;
 
+}
+.column{
+    margin:35px auto;
+    width:30%;
 }
 .row1{
     margin:35px auto;
     float:center;
-    width:80%;
+    width:50%;
 
 }
 .row::after{

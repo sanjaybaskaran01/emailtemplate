@@ -22,6 +22,7 @@ img {
 .full{
     background-color:#151515;
     position:relative;
+    background-image:url(2021bg.png);
     border: #00d5ff;
     border-width:3px;
     height: 1000px;
@@ -41,6 +42,7 @@ img {
 }
 #csi:hover{
     color:#00d5ff;
+    transition:all 0.3s ease;
 }
 
 #devlink{
@@ -96,11 +98,13 @@ i{
     position:relative;
     padding: 1%;
 }
+
 .inside{
-    text-align:left;
+    text-align:justify;
+    text-justify:inter-word;
     position:relative;
-    top:10%;
-    padding:1%;
+    top:15%;
+    padding:3%;
 }
 
 p,ol{

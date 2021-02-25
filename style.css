@@ -93,9 +93,6 @@ img.up{
     transform: translate(-50%, -50%);
     transition:all 0.3s ease;
 }
-i:active{
-    color:#00d5ff;
-}
 .imag:hover,.imag1:hover{
     border:2px solid #00d5ff;
     color:#00d5ff;

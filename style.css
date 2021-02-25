@@ -88,7 +88,7 @@ i{
     font-size:25px;
     color:white;
     position:relative;
-    padding:1%;
+    padding: 1%;
 }
 .inside{
     text-align:left;
@@ -102,6 +102,13 @@ p,ol{
     color:whitesmoke;
     float:center;
     font-size:15px;
+}
+.bottext{
+    font-size:15px;
+    text-align:left;
+    position:relative;
+    margin:0;
+    padding:1%;
 }
 li{
     margin:0 0 5px 0;

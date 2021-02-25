@@ -2,17 +2,24 @@
     box-sizing:border-box;
 }
 
-img {
+img.up{
     display:block;
-    max-height:80%;
-    max-width:80%;
+    max-height:100%;
+    max-width:100%;
     margin-left:auto;
     margin-right:auto;
 }
-.column{
+.row{
     margin:35px auto;
-    float:left;
-    width:33.33%;
+    float:center;
+    width:40%;
+
+}
+.row1{
+    margin:35px auto;
+    float:center;
+    width:80%;
+
 }
 .row::after{
     content:"";
@@ -22,7 +29,8 @@ img {
 .full{
     background-color:#151515;
     position:relative;
-    background-image:url(2021bg.png);
+    background-image:url(https://static.csivit.com/devspace-email-template-assets/emailtempbg.png);
+    background-size:600px 1000px;
     border: #00d5ff;
     border-width:3px;
     height: 1000px;
@@ -47,9 +55,9 @@ img {
 
 #devlink{
     font-family: 'Lato', sans-serif;
-    color:whitesmoke;
-    background-color:#151515;
-    border: 2px solid #00d5ff;
+    color: black;
+    background-color:#00d5ff;
+    border: 2px solid whitesmoke;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -66,9 +74,9 @@ img {
 
 #devlink:hover{
     font-family: 'Lato', sans-serif;
-    color:#151515;
-    background-color:#00d5ff;
-    border: 2px solid whitesmoke;
+    color:whitesmoke;
+    background-color:#151515;
+    border: 2px solid #00d5ff;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -107,7 +115,7 @@ i{
     padding:3%;
 }
 
-p,ol{
+p,ul{
     font-family: 'Lato', sans-serif;
     color:whitesmoke;
     float:center;
@@ -130,14 +138,27 @@ h2{
 #devlink:link{
     color:whitesmoke;
 }
-
-
-.bottom{
-    position:absolute;
-    background-color:black;
+.bottom {
+    display:flex;
+    position:relative;
     bottom:0;
-    width:100%;
     height:10%;
+
 }
+
+.imag{
+    float:left;
+    max-width:40%;
+    max-height:40%;
+}
+.imag1{
+    float:left;
+    max-width:80%;
+    }
+.c::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 

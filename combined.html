@@ -5,9 +5,10 @@
 
     <meta charset="UTF-8">
     <title></title>
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
     <style type="text/css">
         @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
         * {
             margin: 0;
             border: 0;
@@ -22,9 +23,16 @@
 
         p,
         ul.ultext { 
-            color: #f2f2f2;
+            color: #f3f0f0;
             font-size: 15px;
             margin: 2% 2%;
+        }
+        @media (prefers-color-scheme: dark){
+            ul.ultext { 
+            color: #f3f0f0;
+            font-size: 15px;
+            margin: 2% 2%;
+        }
         }
 
         .ultext {
@@ -77,12 +85,11 @@
         a{
             text-decoration: none;
         }
-
         .devsbtn {
             font-family: 'Lato', sans-serif;
             color: black;
             background-color: #00d5ff;
-            border: 2px solid #f2f2f2;
+            border: 2px solid #f3f0f0;
             padding: 15px 32px;
             text-decoration-color: black;
             text-align: center;
@@ -94,9 +101,27 @@
             transition: all 0.3s ease;
         }
 
+        @media (prefers-color-scheme: dark)
+        {.devsbtn {
+            font-family: 'Lato', sans-serif;
+            color: black;
+            background-color: #00d5ff;
+            border: 2px solid #f3f0f0;
+            padding: 15px 32px;
+            text-decoration-color: black;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+            font-size: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        }
+
         .devsbtn:hover {
             font-family: 'Lato', sans-serif;
-            color: #f2f2f2;
+            color: #f3f0f0;
             background-color: #151515;
             border: 2px solid #00d5ff;
             padding: 15px 32px;
@@ -108,7 +133,22 @@
             position: relative;
             transition: all 0.3s ease;
         }
-
+        @media (prefers-color-scheme: dark){
+            .devsbtn:hover {
+            font-family: 'Lato', sans-serif;
+            color: #f3f0f0;
+            background-color: #151515;
+            border: 2px solid #00d5ff;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        }
         .social {
             /* max-width: 30px; */
             float: left;
@@ -123,15 +163,23 @@
             border: 1px solid #00d5ff;
         }
         a.csiweb{
-            color:#f2f2f2;
-        }
+            color:#f3f0f0;
+            }
+
+        @media (prefers-color-scheme: dark){
+            a.csiweb{
+            color:#f3f0f0;
+        }}
         a.csiweb:hover{
             color:#00d5ff;
         }
+        @media (prefers-color-scheme: dark){
+            a.csiweb:active{
+            color:#f3f0f0;
+        }}
         a.csiweb:active{
-            color:#f2f2f2;
-        }
-        
+            color:#f3f0f0;}
+            
         .collabs{
             margin-top:0;
             margin-left:0;
@@ -144,10 +192,18 @@
             padding-bottom:1%;
         }
         h1{
-            color:#f2f2f2;
+            color:#f3f0f0;
             font-size:20px;
             text-align:center;
             margin:0 auto;
+        }
+        @media (prefers-color-scheme: dark){
+            h1{
+            color:#f3f0f0;
+            font-size:20px;
+            text-align:center;
+            margin:0 auto;
+        }
         }
         #csiwebsitelink{
             text-decoration: underline;
@@ -218,7 +274,7 @@
             <br>
                 <img class="collabitem" src=https://user-images.githubusercontent.com/17690376/109774612-6775c300-7bb5-11eb-9bd4-fac3dadd57a4.png>
                 <img class="collabitem" src=https://user-images.githubusercontent.com/17690376/109774726-8411fb00-7bb5-11eb-8932-26220b44c789.png>
-                <img class="collabitem" src="https://user-images.githubusercontent.com/17690376/109774829-9c821580-7bb5-11eb-8d77-71459bcad7b5.png">
+                <img class="collabitem" src=https://user-images.githubusercontent.com/17690376/109774829-9c821580-7bb5-11eb-8d77-71459bcad7b5.png>
                 <img class="collabitem" src=https://user-images.githubusercontent.com/17690376/109774904-ac99f500-7bb5-11eb-93c1-92cd05aeb6fc.jpg>
                 <img class="collabitem" src=https://user-images.githubusercontent.com/17690376/109774984-c3d8e280-7bb5-11eb-8184-8a7fe55a3259.png>   
                 <img class="collabitem" src=https://user-images.githubusercontent.com/17690376/109775563-80cb3f00-7bb6-11eb-99bf-2de0560e565e.png>
